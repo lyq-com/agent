@@ -6,15 +6,7 @@ import oshi.SystemInfo;
 import oshi.software.os.OperatingSystem;
 
 
-public class OperatingSystemTest {
-
-    private OperatingSystem operatingSystem = null;
-
-    @Before
-    public void init(){
-        SystemInfo systemInfo = new SystemInfo();
-        operatingSystem = systemInfo.getOperatingSystem();
-    }
+public class OperatingSystemTest extends OperaingBaseTest{
 
 
     @Test
@@ -60,6 +52,8 @@ public class OperatingSystemTest {
             int bitness = operatingSystem.getBitness();
             //获取系统启动时间(启动后的时间)。
             long systemUptime = operatingSystem.getSystemUptime();
+            long systemBootTime = operatingSystem.getSystemBootTime();
+
 
             System.out.println("操作系统族：" + family);
             System.out.println("操作系统制造商：" + manufacturer);
@@ -69,7 +63,9 @@ public class OperatingSystemTest {
             System.out.println("当前运行的线程数：" + threadCount);
             System.out.println("操作系统的位数：" + bitness);
             System.out.println("系统启动时长：" + systemUptime);
+            System.out.println(systemBootTime);
             // 2036741
+
 
             Thread.sleep(1000 * 10);
         }

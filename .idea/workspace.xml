@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546262bb-d70d-4193-992c-d711b1eb4b0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/FileSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/OperaingBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/OperatingSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/OperatingSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oshi-tool/target/test-classes/oshi/tool/test/operatingsystem/OperatingSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/oshi-tool/target/test-classes/oshi/tool/test/operatingsystem/OperatingSystemTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +58,7 @@
       <recent name="F:\CodeRewriting\agent\oshi-tool\src\main\java\oshi\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OperatingSystemTest">
-    <configuration name="ComputerID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oshi.demo.ComputerID" />
-      <module name="oshi-tool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oshi.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FileSystemTest.fileSystemtest01">
     <configuration name="OperatingSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.OperatingSystemTest" />
       <module name="oshi-tool" />
@@ -108,6 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileSystemTest.fileSystemtest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oshi-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oshi.tool.test.operatingsystem" />
+      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.FileSystemTest" />
+      <option name="METHOD_NAME" value="fileSystemtest01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperatingSystemTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oshi-tool" />
       <extension name="coverage">
@@ -126,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileSystemTest.fileSystemtest01" />
         <item itemvalue="Application.OperatingSystemTest" />
         <item itemvalue="JUnit.OperatingSystemTest.test01" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.OshiGui" />
-        <item itemvalue="Application.ComputerID" />
       </list>
     </recent_temporary>
   </component>
@@ -181,45 +187,45 @@
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613826627663" />
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1613784014058" />
-    <state width="1867" height="670" key="GridCell.Tab.0.bottom" timestamp="1613873573639">
+    <state width="1867" height="189" key="GridCell.Tab.0.bottom" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1867" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="670" key="GridCell.Tab.0.center" timestamp="1613873573639">
+    <state width="1867" height="189" key="GridCell.Tab.0.center" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1867" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="670" key="GridCell.Tab.0.left" timestamp="1613873573639">
+    <state width="1867" height="189" key="GridCell.Tab.0.left" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1867" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="670" key="GridCell.Tab.0.right" timestamp="1613873573639">
+    <state width="1867" height="189" key="GridCell.Tab.0.right" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1867" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="670" key="GridCell.Tab.1.bottom" timestamp="1613873573530">
+    <state width="1867" height="189" key="GridCell.Tab.1.bottom" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1867" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
-    <state width="1867" height="670" key="GridCell.Tab.1.center" timestamp="1613873573530">
+    <state width="1867" height="189" key="GridCell.Tab.1.center" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1867" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
-    <state width="1867" height="670" key="GridCell.Tab.1.left" timestamp="1613873573530">
+    <state width="1867" height="189" key="GridCell.Tab.1.left" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1867" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
-    <state width="1867" height="670" key="GridCell.Tab.1.right" timestamp="1613873573530">
+    <state width="1867" height="189" key="GridCell.Tab.1.right" timestamp="1613900337141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="670" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1867" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
     <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1613826650064">
       <screen x="0" y="0" width="1920" height="1040" />
