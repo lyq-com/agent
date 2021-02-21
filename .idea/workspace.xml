@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="546262bb-d70d-4193-992c-d711b1eb4b0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\code_warehouse\maven_home\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven_home/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\code_warehouse\maven_home\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oiy6Z5BaWhZYl1mRtsU2X2t7OO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CodeRewriting\agent\oshi-tool\src\main\java\oshi\demo\gui" />
+      <recent name="F:\CodeRewriting\agent\oshi-tool\src\main\java\oshi\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OperatingSystemTest">
+    <configuration name="ComputerID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oshi.demo.ComputerID" />
+      <module name="oshi-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oshi.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatingSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.OperatingSystemTest" />
+      <module name="oshi-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OshiGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oshi.demo.OshiGui" />
+      <module name="oshi-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oshi.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.Test1" />
+      <module name="oshi-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oshi.tool.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatingSystemTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oshi-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oshi.tool.test.operatingsystem" />
+      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.OperatingSystemTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OperatingSystemTest" />
+        <item itemvalue="JUnit.OperatingSystemTest.test01" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.OshiGui" />
+        <item itemvalue="Application.ComputerID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="546262bb-d70d-4193-992c-d711b1eb4b0a" name="Default Changelist" comment="" />
+      <created>1613783530822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613783530822</updated>
+    </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1613878963999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613878963999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="527" y="46" key="CommitChangelistDialog2" timestamp="1613878962570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613878962570" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1613826627663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613826627663" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1613784014058" />
+    <state width="1867" height="670" key="GridCell.Tab.0.bottom" timestamp="1613873573639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
+    <state width="1867" height="670" key="GridCell.Tab.0.center" timestamp="1613873573639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
+    <state width="1867" height="670" key="GridCell.Tab.0.left" timestamp="1613873573639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
+    <state width="1867" height="670" key="GridCell.Tab.0.right" timestamp="1613873573639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573639" />
+    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
+    <state width="1867" height="670" key="GridCell.Tab.1.bottom" timestamp="1613873573530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
+    <state width="1867" height="670" key="GridCell.Tab.1.center" timestamp="1613873573530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
+    <state width="1867" height="670" key="GridCell.Tab.1.left" timestamp="1613873573530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
+    <state width="1867" height="670" key="GridCell.Tab.1.right" timestamp="1613873573530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="670" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613873573530" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
+    <state x="461" y="157" key="SettingsEditor" timestamp="1613826650064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613826650064" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1613784017893" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1613878969715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613878969715" />
+    <state x="334" y="219" key="new project wizard" timestamp="1613788578245">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="334" y="219" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1613788578245" />
+  </component>
+</project>
