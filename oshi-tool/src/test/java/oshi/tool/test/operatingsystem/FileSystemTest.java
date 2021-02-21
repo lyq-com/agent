@@ -15,7 +15,7 @@ public class FileSystemTest extends OperaingBaseTest{
 
         FileSystem fileSystem = operatingSystem.getFileSystem();
 
-        List<OSFileStore> fileStores = fileSystem.getFileStores();
+        List<OSFileStore> fileStores = fileSystem.getFileStores(true);
 
         System.out.println("name \t\t" +
                 "volume \t\t" + "label \t\t" + "logicalVolume \t\t" + "mount \t\t" + "description \t\t" + "type \t\t" + "options \t\t" +
