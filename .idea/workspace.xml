@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546262bb-d70d-4193-992c-d711b1eb4b0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/format/FormatTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/OSProcessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/src/main/java/org/lyq/metrics/CachedGaugeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/src/main/java/org/lyq/metrics/DerivativeGaugeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/src/main/java/org/lyq/metrics/JmxAttributeGaugeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/src/main/java/org/lyq/metrics/MeterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/src/main/java/org/lyq/metrics/RatioGaugeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics-tool/src/main/java/org/lyq/metrics/SimpleGaugeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/FileSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oshi-tool/src/test/java/oshi/tool/test/operatingsystem/FileSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oshi-tool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oshi-tool/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -61,13 +66,13 @@
       <recent name="F:\CodeRewriting\agent\oshi-tool\src\main\java\oshi\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormatTest1.test">
-    <configuration name="OperatingSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.OperatingSystemTest" />
-      <module name="oshi-tool" />
+  <component name="RunManager" selected="Application.DerivativeGaugeExample">
+    <configuration name="CachedGaugeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lyq.metrics.gauge.CachedGaugeExample" />
+      <module name="metrics-tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="PATTERN" value="org.lyq.metrics.meter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,77 +80,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystemTest.fileSystemtest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oshi-tool" />
+    <configuration name="DerivativeGaugeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lyq.metrics.gauge.DerivativeGaugeExample" />
+      <module name="metrics-tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="PATTERN" value="org.lyq.metrics.meter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oshi.tool.test.operatingsystem" />
-      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.FileSystemTest" />
-      <option name="METHOD_NAME" value="fileSystemtest01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormatTest1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oshi-tool" />
+    <configuration name="JmxAttributeGaugeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lyq.metrics.gauge.JmxAttributeGaugeExample" />
+      <module name="metrics-tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oshi.tool.test.format.*" />
+          <option name="PATTERN" value="org.lyq.metrics.meter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oshi.tool.test.format" />
-      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.format.FormatTest1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OSProcessTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oshi-tool" />
+    <configuration name="RatioGaugeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lyq.metrics.gauge.RatioGaugeExample" />
+      <module name="metrics-tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="PATTERN" value="org.lyq.metrics.meter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oshi.tool.test.operatingsystem" />
-      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.OSProcessTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatingSystemTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oshi-tool" />
+    <configuration name="SimpleGaugeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lyq.metrics.gauge.SimpleGaugeExample" />
+      <module name="metrics-tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oshi.tool.test.operatingsystem.*" />
+          <option name="PATTERN" value="org.lyq.metrics.meter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oshi.tool.test.operatingsystem" />
-      <option name="MAIN_CLASS_NAME" value="oshi.tool.test.operatingsystem.OperatingSystemTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FormatTest1.test" />
-        <item itemvalue="JUnit.OSProcessTest.test" />
-        <item itemvalue="JUnit.FileSystemTest.fileSystemtest01" />
-        <item itemvalue="Application.OperatingSystemTest" />
-        <item itemvalue="JUnit.OperatingSystemTest.test01" />
+        <item itemvalue="Application.DerivativeGaugeExample" />
+        <item itemvalue="Application.CachedGaugeExample" />
+        <item itemvalue="Application.RatioGaugeExample" />
+        <item itemvalue="Application.JmxAttributeGaugeExample" />
+        <item itemvalue="Application.SimpleGaugeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613900376539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交">
+      <created>1613921900712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613921900712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,68 +194,80 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="46" key="CommitChangelistDialog2" timestamp="1613900374856">
+    <state x="636" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614081722153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="527" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613900374856" />
+    <state x="636" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614081722153" />
+    <state x="721" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1614101480446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614101480446" />
+    <state x="527" y="46" key="CommitChangelistDialog2" timestamp="1613921899264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613921899264" />
     <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1613914758349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613914758349" />
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1613784014058" />
-    <state width="1867" height="326" key="GridCell.Tab.0.bottom" timestamp="1613921340301">
+    <state width="1867" height="258" key="GridCell.Tab.0.bottom" timestamp="1614101590862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613921340301" />
+    <state width="1867" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614101590862" />
     <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="326" key="GridCell.Tab.0.center" timestamp="1613921340301">
+    <state width="1867" height="258" key="GridCell.Tab.0.center" timestamp="1614101590862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613921340301" />
+    <state width="1867" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614101590862" />
     <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="326" key="GridCell.Tab.0.left" timestamp="1613921340301">
+    <state width="1867" height="258" key="GridCell.Tab.0.left" timestamp="1614101590862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613921340301" />
+    <state width="1867" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614101590862" />
     <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="326" key="GridCell.Tab.0.right" timestamp="1613921340301">
+    <state width="1867" height="258" key="GridCell.Tab.0.right" timestamp="1614101590862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613921340301" />
+    <state width="1867" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614101590862" />
     <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613808933252" />
-    <state width="1867" height="189" key="GridCell.Tab.1.bottom" timestamp="1613900337141">
+    <state width="1867" height="482" key="GridCell.Tab.1.bottom" timestamp="1614092904974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
+    <state width="1867" height="482" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614092904974" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
-    <state width="1867" height="189" key="GridCell.Tab.1.center" timestamp="1613900337141">
+    <state width="1867" height="482" key="GridCell.Tab.1.center" timestamp="1614092904974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
+    <state width="1867" height="482" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614092904974" />
     <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
-    <state width="1867" height="189" key="GridCell.Tab.1.left" timestamp="1613900337141">
+    <state width="1867" height="482" key="GridCell.Tab.1.left" timestamp="1614092904974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
+    <state width="1867" height="482" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614092904974" />
     <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
-    <state width="1867" height="189" key="GridCell.Tab.1.right" timestamp="1613900337141">
+    <state width="1867" height="482" key="GridCell.Tab.1.right" timestamp="1614092904974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613900337141" />
+    <state width="1867" height="482" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614092904974" />
     <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613803032495" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1613826650064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613826650064" />
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1613784017893" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1613900379957">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1613921902578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613900379957" />
-    <state x="322" y="217" key="new project wizard" timestamp="1613916479024">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613921902578" />
+    <state x="719" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614079956608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="322" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613916479024" />
+    <state x="719" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614079956608" />
+    <state x="322" y="217" key="new project wizard" timestamp="1614081426056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="322" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614081426056" />
     <state x="334" y="219" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1613788578245" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1613919692789">
       <screen x="0" y="0" width="1920" height="1040" />
