@@ -10,6 +10,7 @@
         <module name="model-data" />
         <module name="oshi-tool" />
         <module name="oshi-demo" />
+        <module name="lamdba-tool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="agent" options="-parameters" />
+      <module name="lamdba-tool" options="-parameters" />
       <module name="metrics-tool" options="-parameters" />
       <module name="model-data" options="-parameters" />
       <module name="oshi-demo" options="-parameters" />

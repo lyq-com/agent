@@ -12,22 +12,25 @@ import java.util.concurrent.TimeUnit;
  */
 public class MeterExample {
 
+    // 创建一个注册表
     private final static MetricRegistry registry = new MetricRegistry();
 
+    // 向注册表中注册一个 meter，名字“tqs”。
     private final static Meter requestMeter = registry.meter("tqs");
+    // 向注册表中注册一个 meter，名字"volume"
     private final static Meter sizeMeter = registry.meter("volume");
+    // 向注册表中注册一个 meter，名字“error”
     private final static Meter errMeter = registry.meter("error");
 
-    /**
-     * psvm、main
-     * @param args
-     */
+
     public static void main(String[] args) {
 
+        //定义 reporter，用于报告结果。
         ConsoleReporter reporter = ConsoleReporter.forRegistry(registry)
                 .convertRatesTo(TimeUnit.MINUTES)
                 .convertDurationsTo(TimeUnit.MINUTES).build();
 
+        //每 10 秒想控制台打印一次。
         reporter.start(10,TimeUnit.SECONDS);
 
         for (;;){
