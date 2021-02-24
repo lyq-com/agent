@@ -12,6 +12,7 @@
         <module>oshi-tool</module>
         <module>model-data</module>
         <module>metrics-tool</module>
+        <module>lamdba-tool</module>
     </modules>
 
 
