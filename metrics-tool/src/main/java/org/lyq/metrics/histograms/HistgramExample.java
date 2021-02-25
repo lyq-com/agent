@@ -19,6 +19,9 @@ public class HistgramExample {
 
 
     public static void main(String[] args) {
+
+
+
         reporter.start(10,TimeUnit.SECONDS);
 
         while (true){

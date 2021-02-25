@@ -18,7 +18,7 @@ public class MeterExample {
     // 向注册表中注册一个 meter，名字“tqs”。
     private final static Meter requestMeter = registry.meter("tqs");
     // 向注册表中注册一个 meter，名字"volume"
-    private final static Meter sizeMeter = registry.meter("volume");
+    //private final static Meter sizeMeter = registry.meter("volume");
     // 向注册表中注册一个 meter，名字“error”
     private final static Meter errMeter = registry.meter("error");
 
@@ -27,7 +27,7 @@ public class MeterExample {
 
         //定义 reporter，用于报告结果。
         ConsoleReporter reporter = ConsoleReporter.forRegistry(registry)
-                .convertRatesTo(TimeUnit.MINUTES)
+                .convertRatesTo(TimeUnit.SECONDS)
                 .convertDurationsTo(TimeUnit.MINUTES).build();
 
         //每 10 秒想控制台打印一次。
@@ -42,7 +42,7 @@ public class MeterExample {
     private static void handleRequest(byte[] request){
         try{
         requestMeter.mark();
-        sizeMeter.mark(request.length);
+        //sizeMeter.mark(request.length);
         int x = 10/ThreadLocalRandom.current().nextInt(6);
         randomSleep();
         }catch (Exception e){
@@ -53,7 +53,7 @@ public class MeterExample {
 
     public static void randomSleep(){
         try {
-            TimeUnit.SECONDS.sleep(ThreadLocalRandom.current().nextInt(10));
+            TimeUnit.SECONDS.sleep(ThreadLocalRandom.current().nextInt(5));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
